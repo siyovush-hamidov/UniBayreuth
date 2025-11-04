@@ -4,7 +4,7 @@
 
 int main()
 {
-    srand(time(NULL)); // Que: Как обеспечить каждый раз разную генерацию?
+    srand(time(NULL));
 
     int amount_of_beads,
         amount_of_bins, i, j, final_bin_index, max_height_of_bins_for_image = 0;
